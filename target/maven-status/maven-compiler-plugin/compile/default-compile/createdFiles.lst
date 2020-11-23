@@ -1,0 +1,5 @@
+project\Main.class
+project\view\FXComponent.class
+project\view\DisplayView.class
+project\view\GenerateView.class
+project\view\AppLauncher.class
