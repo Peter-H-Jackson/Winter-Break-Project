@@ -1,12 +1,14 @@
 package project.controller;
 
-import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
-import javafx.beans.property.DoubleProperty;
+import java.util.ArrayList;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.StackPane;
+import javafx.scene.paint.Color;
+import javafx.scene.text.Font;
+import javafx.scene.text.FontWeight;
 import javafx.scene.text.Text;
 import project.model.Model;
 
@@ -37,6 +39,8 @@ public class ControllerImpl implements Controller {
     imageView.setPreserveRatio(true);
 
     Text quote = new Text(model.getQuote());
+    quote.setFont(Font.font("Comic Sans", FontWeight.BOLD, 20));
+    quote.setFill(Color.WHITE);
 
     pane.getChildren().addAll(imageView, quote);
 

@@ -1,10 +1,8 @@
 package project.model;
 
-import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Random;
-import javafx.scene.image.Image;
 
 public class ModelImpl implements Model {
 

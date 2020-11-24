@@ -23,5 +23,11 @@ public class ImagePathLibrary {
     imagePaths.add("C:/Users/peter/Coding-Projects/Winter-Break-Project/src/main/picture-library/img2.jpg");
     imagePaths.add("C:/Users/peter/Coding-Projects/Winter-Break-Project/src/main/picture-library/img3.jpg");
     imagePaths.add("C:/Users/peter/Coding-Projects/Winter-Break-Project/src/main/picture-library/img4.jpg");
+    imagePaths.add("C:/Users/peter/Coding-Projects/Winter-Break-Project/src/main/picture-library/img5.jpg");
+    imagePaths.add("C:/Users/peter/Coding-Projects/Winter-Break-Project/src/main/picture-library/img6.jpg");
+    imagePaths.add("C:/Users/peter/Coding-Projects/Winter-Break-Project/src/main/picture-library/img7.jpg");
+    imagePaths.add("C:/Users/peter/Coding-Projects/Winter-Break-Project/src/main/picture-library/img8.jpg");
+    imagePaths.add("C:/Users/peter/Coding-Projects/Winter-Break-Project/src/main/picture-library/img9.jpg");
+    imagePaths.add("C:/Users/peter/Coding-Projects/Winter-Break-Project/src/main/picture-library/img10.jpg");
   }
 }
