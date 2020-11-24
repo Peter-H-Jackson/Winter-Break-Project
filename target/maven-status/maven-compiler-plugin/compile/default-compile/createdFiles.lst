@@ -1,5 +1,14 @@
-project\Main.class
 project\view\FXComponent.class
 project\view\DisplayView.class
-project\view\GenerateView.class
+project\QuoteLibrary.class
+project\view\View.class
+project\ImagePathLibrary.class
+project\controller\ControllerImpl.class
 project\view\AppLauncher.class
+project\model\ModelObserverImpl.class
+project\controller\Controller.class
+project\Main.class
+project\model\Model.class
+project\model\ModelObserver.class
+project\view\GenerateView.class
+project\model\ModelImpl.class
