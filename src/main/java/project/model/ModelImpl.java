@@ -1,20 +1,34 @@
 package project.model;
 
 import java.io.IOException;
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Random;
 
 public class ModelImpl implements Model {
 
+  // Data
   private ArrayList<String> imagePaths;
   private ArrayList<String> quotes;
+  // Observers
   private ArrayList<ModelObserver> observers;
+  // Found items
+  private ArrayList<Integer> foundPictures;
+  private ArrayList<Integer> foundQuotes;
+  // Current item index
+  int imageIndex;
+  int quoteIndex;
+  // Current page
   int page;
 
   public ModelImpl(ArrayList<String> imagePaths, ArrayList<String> quotes) {
     this.imagePaths = imagePaths;
     this.quotes = quotes;
     this.observers = new ArrayList<>();
+    this.foundPictures = new ArrayList<>();
+    this.foundQuotes = new ArrayList<>();
+    this.imageIndex = 0;
+    this.quoteIndex = 0;
     this.page = 0;
   }
 
@@ -67,5 +81,6 @@ public class ModelImpl implements Model {
     observers.remove(observer);
   }
 
+  @Override
   public void refresh() throws IOException { _notify(); }
 }

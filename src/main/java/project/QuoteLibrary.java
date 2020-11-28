@@ -28,6 +28,12 @@ public class QuoteLibrary {
     quotes.add("If life gives you lemons, make lemonade");
     quotes.add("Real eyes realize real lies");
     quotes.add("You miss 100% of the shots you don't take");
-    quotes.add("YOLO");
+    quotes.add("Take the road less traveled");
+    quotes.add("When it rains, look for rainbows; when it's dark, look for stars.");
+    quotes.add("If your dreams don't scare you, they are too small");
+    quotes.add("Think positive, talk positive, feel positive.");
+    quotes.add("If opportunity doesn't knock, build a door.");
+    quotes.add("If your dreams don't scare you, they are too small");
+
   }
 }
